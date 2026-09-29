@@ -1,94 +1,152 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайт обо мне</title>
+    <title>My Portfolio</title>
 </head>
-<body><img src="c:\Users\user\Downloads\5310219383944715685.jpg." alt="Моя фотография" width="160">
+
+<body>
+
     <header>
-        Привет!Я Нурэл
+        <h1>Continue your portfolio</h1>
+        <p>Практика в том же index.html: Аудио и Skills</p>
     </header>
+
     <main>
-        <selection>
-    <h2>Обо мне</h2>
-    <p>Меня зовут Нурэл,мне 17 лет и я интересуюсь компьютерами играми и спортом</p>
-        </selection>
-    <selection>
-    <h2>Мои увлечения</h2>
-    </selection>
-        <selection>
-    <h3>Игры</h3>
-    <a href="css2.html"> CS2</a>
-    <br>
-<a href ="Forza horizon.html">Forza Horizon 6</a>
-        </selection>
-        <selection>
-    <h3>Тхэквондо</h3>
-    <a href="thx.html">Достижения</a>
-        </selection>
-        <selection>
-    <h3>Компьютеры</h3>
-    <P>Мне интересно компьютерное железо и программы для програмирования</P>
-        </selection>
-    <h2>💻 Изучение языков программирования</h2>
 
-<table border="1">
-    <tr>
-        <th>Язык</th>
-        <th>Уровень</th>
-        <th>Что изучаю</th>
-    </tr>
+        <section>
+            <h2>Нурэл's Portfolio</h2>
 
-    <tr>
-        <td>HTML</td>
-        <td>Начальный</td>
-        <td>Создание сайтов</td>
-    </tr>
+            <p>
+                Web Programmer — All-in-One-Page
+            </p>
 
-    <tr>
-        <td>CSS</td>
-        <td>Начальный</td>
-        <td>Оформление сайтов</td>
-    </tr>
+            <nav>
+                <a href="#about">About Me</a> |
+                <a href="#skills">My Skills</a> |
+                <a href="#work">My Work</a> |
+                <a href="#contact">Contact</a>
+            </nav>
+        </section>
 
-    <tr>
-        <td>Java</td>
-        <td>Начальный</td>
-        <td>Основы программирования</td>
-    </tr>
 
-    <tr>
-        <td>JavaScript</td>
-        <td>Начальный</td>
-        <td>Интерактивность сайтов</td>
-    </tr>
-</table>
-    </selection
-    <section>
-    <h2>🎵 Музыка и видео</h2>
+        <section id="about">
 
-    <h3>Моя музыка</h3>
+            <h2>About Me</h2>
 
-    <audio controls>
-        <source src="donk_cSrvoZx.mp3" type="audio/mpeg">
-    </audio>
+            <img src="photo.jpg" alt="Моя фотография" width="150">
 
-    <h3>Моё видео</h3>
+            <p>
+                Hello! I am Nurel. I am interested in computers,
+                games and programming.
+            </p>
 
-    <video width="600" controls>
-        <source src="1 SECOND TIMER ⏲️.mp4" type="video/mp4">
-    </video>
-</section>
-        <h3>Мои контакты</h3>
-        <p>tg @cyanyte</p>
-        <p>num: +996 995 610021</p>
+            <p>
+                I am learning how to create websites with HTML.
+            </p>
+
+        </section>
+
+
+        <section id="skills">
+
+            <h2>My Skills</h2>
+
+            <ul>
+                <li>HTML page structure</li>
+                <li>Images and links</li>
+                <li>Forms and media</li>
+            </ul>
+
+            <p>
+                Portfolio sections completed:
+                <progress value="3" max="5"></progress>
+                3 of 5
+            </p>
+
+            <p>
+                HTML self-check:
+                <progress value="70" max="100"></progress>
+                70 / 100
+            </p>
+
+            <p>
+                Today's written result: 3 completed sections
+            </p>
+
+        </section>
+
+
+        <section id="work">
+
+            <h2>My Work</h2>
+
+            <h3>Short introduction</h3>
+
+            <p>Listen to a short sample:</p>
+
+            <audio controls>
+                <source src="music.mp3" type="audio/mpeg">
+                Ваш браузер не поддерживает аудио.
+            </audio>
+
+
+            <h3>Portfolio preview</h3>
+
+            <p>A short example video stored in the same portfolio folder:</p>
+
+            <video width="500" controls>
+                <source src="video.mp4" type="video/mp4">
+                Ваш браузер не поддерживает видео.
+            </video>
+
+        </section>
+
+
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <p>
+                This is a practice form. It does not send a message yet.
+            </p>
+
+            <form>
+
+                <fieldset>
+
+                    <legend>Your message</legend>
+
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name"><br><br>
+
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email"><br><br>
+
+                    <label for="message">Message</label><br>
+                    <textarea id="message" rows="6" cols="50"></textarea>
+                    <br><br>
+
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Clear">
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
     </main>
+
+
     <footer>
-        <p>2026 Нурэл,Мой личный сайт</p>
+
+        <p>© 2026 Нурэл's Portfolio</p>
+
     </footer>
 
-
-
 </body>
+
 </html>
